@@ -2668,6 +2668,8 @@ section.gradient-bg:not([data-gradients]) {
 .submenu {
   margin-left: 0;
 }
+
+
 .light-slide #navbar:not(.stick) {
   border-color: rgba(0, 0, 0, 0.1);
 }
