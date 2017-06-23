@@ -881,6 +881,7 @@ sr.reveal('.frank',50);
 
   function initVideos() {
     var $youtubePlayer = $('.video-player[data-property]');
+    console.log($youtubePlayer.length);
     if ($youtubePlayer.length) {
       $youtubePlayer.each(function(index, el) {
         $(el).mb_YTPlayer({
