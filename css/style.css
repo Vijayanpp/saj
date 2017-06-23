@@ -2633,6 +2633,7 @@ section.gradient-bg:not([data-gradients]) {
   z-index: 99999;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+      background: rgba(167, 164, 164, 0.52);
 }
 #navbar .logo {
   display: table;
@@ -8077,5 +8078,12 @@ img.zoom-img {
 {
 	background:#000;
 }
-
+.icon-img
+{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -69px;
+    margin-left: -36px;
+}
 
